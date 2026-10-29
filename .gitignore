@@ -1,0 +1,44 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+toutiao_backend/.venv/
+
+# 前端依赖
+node_modules/
+dist/
+
+# 日志、缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.log
+toutiao_backend/cache/
+
+# 密钥、配置
+*.env
+.env
+apikey.txt
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 浏览器测试缓存
+.chrome-prof/
+
+# sqlite数据库
+*.db
+*.sqlite3
+
+.chrome-prof*/
+.chrome-tmp*/
+.cp*/
